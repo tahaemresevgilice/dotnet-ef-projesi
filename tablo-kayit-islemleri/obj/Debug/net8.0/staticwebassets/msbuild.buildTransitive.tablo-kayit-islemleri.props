@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\tablo-kayit-islemleri.props" />
+</Project>

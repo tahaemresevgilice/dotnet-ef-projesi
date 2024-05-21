@@ -1,0 +1,37 @@
+@model List<Urun>
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container mt-4">
+    <div class="mb-3">
+        <h2>Ürünler</h2>
+        <a asp-action="UrunEkle" class="btn btn-primary mb-3">Ekle</a>
+        <table class="table table-sprided align-middle">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Ürün Adı</th>
+                    <th>Fiyat</th>
+                    <th>Stok</th>
+                    <th>Açıklama</th>
+                    <th>İşlem</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model){
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.UrunAdi</td>
+                        <td>@item.Fiyat</td>
+                        <td>@item.Stok</td>
+                        <td>@item.Aciklama</td>
+                        <td>
+                            <a asp-action="UrunGuncelle" asp-route-id="@item.Id" class="btn btn-outline-primary">Güncelle</a>
+                            <a asp-action="UrunSil" asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\tablo-kayit-islemleri.props" />
+</Project>
