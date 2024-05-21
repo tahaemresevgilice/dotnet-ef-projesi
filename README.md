@@ -1,5 +1,5 @@
  
-# Angular Blog Projesi
+# Dotnet Veritabanı İşlemleri Projesi
 
 Merhaba! Bu Projede Dotnet MVC Entity Framework ve SQL Server kullanarak. Listeleme,Ekleme,Güncelleme,Silme İşlemlerini gerçekleştiren admin panel yaptım. 
 
