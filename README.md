@@ -19,8 +19,15 @@ Merhaba! Bu Projede Dotnet MVC Entity Framework ve SQL Server kullanarak. Listel
 
 
 3. Gerekli bağımlılıkları yükleyin:
-Microsoft SQL Server Express kurulumunu yapın.
+   
+Microsoft SQL Server Express kurulumunu yapın. 
 https://www.microsoft.com/tr-tr/sql-server/sql-server-downloads
+
+EntityFramework Veritabanı İşlemleri Aracı
+dotnet tool install --global dotnet-ef
+
+Eğer daha önce yüklendiyse güncelleyin:
+dotnet tool update --global dotnet-ef
 
 5. Geliştirme sunucusunu başlatın:
 
