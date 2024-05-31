@@ -19,12 +19,13 @@ Merhaba! Bu Projede Dotnet MVC Entity Framework ve SQL Server kullanarak. Listel
 
 
 3. Gerekli bağımlılıkları yükleyin:
+Microsoft SQL Server Express kurulumunu yapın.
+https://www.microsoft.com/tr-tr/sql-server/sql-server-downloads
+
+5. Geliştirme sunucusunu başlatın:
 
 
-4. Geliştirme sunucusunu başlatın:
-
-
-5. Tarayıcınızda `localhost:3000` adresine gidin ve projeyi görüntüleyin.
+6. Tarayıcınızda `localhost:3000` adresine gidin ve projeyi görüntüleyin.
 
 ---
 
