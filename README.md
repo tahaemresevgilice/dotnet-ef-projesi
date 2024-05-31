@@ -29,13 +29,26 @@ dotnet tool install --global dotnet-ef
 Eğer daha önce yüklendiyse güncelleyin:
 dotnet tool update --global dotnet-ef
 
+Terminal ekranından paketleri ekleyin:
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+
+SQL SERVER:
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
 VSCODE EKLENTİLERİ:
 
 SQL Server (mssql) - Microsoft
 
 5. Geliştirme sunucusunu başlatın:
 
- 
+ DenemeContext.cs dosyasını düzenleyin (ServerName) ("Server=ServerName;Initial Catalog=DenemikiDb;Integrated Security=True;Trusted_Connection=True;Encrypt=False;");
+
+var olan migrations dosyasını silin ve ardından terminale ekleyin:
+
+dotnet ef migrations add yeni
+dotnet ef database update
+
 
 
 7. Tarayıcınızda `localhost:3000` adresine gidin ve projeyi görüntüleyin.
