@@ -29,10 +29,16 @@ dotnet tool install --global dotnet-ef
 Eğer daha önce yüklendiyse güncelleyin:
 dotnet tool update --global dotnet-ef
 
+VSCODE EKLENTİLERİ:
+
+SQL Server (mssql) - Microsoft
+
 5. Geliştirme sunucusunu başlatın:
 
+ 
 
-6. Tarayıcınızda `localhost:3000` adresine gidin ve projeyi görüntüleyin.
+
+7. Tarayıcınızda `localhost:3000` adresine gidin ve projeyi görüntüleyin.
 
 ---
 
