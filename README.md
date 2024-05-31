@@ -51,7 +51,7 @@ dotnet ef database update
 
 
 
-7. Tarayıcınızda `localhost:3000` adresine gidin ve projeyi görüntüleyin.
+7. Tarayıcınızda görüntülemek için, terminale 'dotnet watch' yazarak projeyi görüntüleyin.
 
 ---
 
