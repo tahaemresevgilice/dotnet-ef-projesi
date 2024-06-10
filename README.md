@@ -6,7 +6,7 @@ Merhaba! Bu Projede Dotnet MVC Entity Framework ve SQL Server kullanarak. Ürün
 ---
 
 ## Projedeki Teknolojiler
-[![My Skills](https://skillicons.dev/icons?i=bootstrap,html,css,js,cs,dotnet)](https://skillicons.dev)<span style="widht:20px; height:20px;">![MasterHead][(https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg)](https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg)</span>
+[![My Skills](https://skillicons.dev/icons?i=bootstrap,html,css,js,cs,dotnet)](https://skillicons.dev)![MasterHead](https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg)](https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg)
 
 ---
 
